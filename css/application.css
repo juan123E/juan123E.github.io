@@ -1,0 +1,326 @@
+
+@import "bootstrap-icons/bootstrap-icons.css";
+
+:root {
+    --color-primary: #1E93FF;
+    --color-secondary: #45DD62;
+    --hover-color-primary: #2082dc;
+
+    --sell-bg-primary: #37BAC4;
+    --agents-bg-primary:#45DD62;
+    --invest-bg-primary: #01AEF0;
+}
+
+.btn.btn-primary {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    color: white !important;
+}
+/*CSS TEMPLATE*/
+.text-primary{
+    color: var(--color-primary) !important;
+}
+
+.text-primary-light {
+    color: var(--color-primary) !important;
+}
+
+.text-warning {
+    color: var(--color-secondary) !important; 
+}
+a{
+    color: var(--color-primary) !important;  
+}
+
+.btn.btn-primary:hover{
+    background-color: var(--hover-color-primary);
+    border-color: var(--hover-color-primary);
+}
+
+.bg-primary-dark {
+    --bs-bg-opacity: 1;
+    background-color:var(--color-secondary) !important;
+}
+
+.step .active .step-title, .step .active.is-valid .step-title {
+    color: var(--color-primary) I !important;
+}
+
+.step .active .step-icon, .step .active.is-valid .step-icon {
+    color: #fff;
+    background-color: var(--hover-color-primary)  !important;
+}
+
+/*END CSS TEMPLATE*
+
+
+/*
+.navbar-dark .navbar-nav a.nav-link {
+    color: #ffffff;
+    font-size: 1.1em;
+}
+.dropdown-menu {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border: none;
+    border-radius: 0;
+    padding: 0.7em;
+    position: fixed !important;
+    left: 0;
+    top: 85px;
+    width: 100vw;
+}
+
+
+.social .bi {
+    font-size: 2em;
+}
+@media only screen and (min-width: 992px) {
+    .dropdown:hover .dropdown-menu {
+        display: flex;
+    }
+    .dropdown-menu.show {
+        display: flex;
+    }
+}
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+}
+.dropdown-menu li .dropdown-item {
+    color: gray;
+    font-size: 1em;
+    padding: 0.5em 1em;
+}
+.dropdown-menu li .dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+/*.dropdown-menu li:first-child a {*/
+/*    font-weight: bold;*/
+/*    font-size: 1.2em;*/
+/*    text-transform: uppercase;*/
+/*    color: var(--color-primary);*/
+/*}*/
+/*.dropdown-menu li:first-child a:hover {*/
+/*    background-color: #f1f1f1;*/
+/*}*/
+
+
+.home-section .content-three{
+    margin-top: 7vw;
+}
+.home-section .content-one, .content-two, .content-three{
+    text-align: center;
+}
+.home-section .content-three div{
+    display: flex;
+    justify-content: center;
+}
+.home-section .content-three form{
+    display: flex;
+}
+/*-----------------------------------------------------------SELL*/
+.sell .bg-home {
+    background-color: var(--sell-bg-primary) !important;
+}
+.sell .banner-bottom-end-n3rem::after {
+
+    background-color: #37bac46b;
+    
+}
+.sell .btn.btn-primary {
+    background-color: #0c72796b;
+    border-color: #0c72796b;
+    color: white !important;
+    
+}
+.sell a{
+    color: var(--sell-bg-primary) !important;  
+}
+
+.sell  .link-light{
+    color: white !important;
+}
+
+
+.sell .lead{
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.sell .bg-home .title{
+    color: white !important;
+}
+.sell .text-primary{
+    color: var(--sell-bg-primary) !important;
+}
+
+.sell .section-3 .card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+@media only screen and (min-width: 1200px) {
+.sell .section-3 .card-img{
+   height: 227px;
+   width: 340px;
+   object-fit: cover;
+  }
+  .sell header{
+    margin-bottom: -72px !important; 
+    background: transparent !important;
+  }
+  .sell header .navbar-nav  .nav-link{
+    color: white !important;
+  }
+}
+.sell .section-5 .title{
+    background-color: var(--sell-bg-primary);
+}
+.sell .section-5 .title h3{
+    color: white;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.banner-bottom-end-n3rem > * {
+    background-color: #00BBC7;
+}
+
+.sell .step .active .step-title, .step .active.is-valid .step-title {
+    color: var(--sell-bg-primary) I !important;
+}
+.sell .step-icon-soft-secondary {
+    color: #51596c;
+    background-color: #C3EBED !important;
+}
+
+.sell .step .active .step-icon, .step .active.is-valid .step-icon {
+    color: #fff;
+    background-color: var(--sell-bg-primary)  !important;
+}
+
+.sell .step .active .step-title, .step .active.is-valid .step-title {
+    color: var(--sell-bg-primary) I !important;
+}
+/*-----------------------------------------------------END SELL*/
+
+
+/*-------------------------------------------------------------INVEST*/
+.invest .bg-home {
+    background-color: var(--invest-bg-primary) !important;
+}
+
+.invest .banner-bottom-end-n3rem::after {
+
+    background-color: var(--invest-bg-primary   );
+    
+}
+.invest .bg-home .title{
+    color: white !important;
+}
+.invest .bg-home .actions {
+    display: flex;
+    color: white;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.invest .bg-home .actions .link{
+    align-items: center;
+    display: flex;
+}
+.invest .section-5{
+    margin-top: 3.5rem;
+    background-color: #14a6e4;
+}
+.invest .section-5 h5{
+    color: white;
+}
+
+.invest .text-primary{
+    color: var(--invest-bg-primary) !important;
+}
+@media only screen and (min-width: 1200px) {
+      .invest header{
+        margin-bottom: -72px !important; 
+        background: transparent !important;
+      }
+      .invest header .navbar-nav  .nav-link{
+        color: white !important;
+      }
+    }
+
+
+
+
+/*-----------------------------------------------------------END INVEST*/
+
+/*-------------------------------------------------------------AGENTS*/
+.agents .bg-home {
+    background-color: white !important;
+}
+
+.agents .banner-bottom-end-n3rem::after {
+
+    background-color: var(--agents-bg-primary   );
+    
+}
+.agents .bg-home .title{
+    color: var(--agents-bg-primary) !important;
+}
+.agents .bg-home .actions {
+    display: flex;
+    color: var(--agents-bg-primary);
+    border: 1px solid var(--agents-bg-primary);
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.agents .bg-home .actions .link{
+    align-items: center;
+    display: flex;
+}
+.agents .section-5{
+    margin-top: 3.5rem;
+    background-color: #14a6e4;
+}
+.agents .section-5 h5{
+    color: white;
+}
+
+.agents .text-primary{
+    color: var(--agents-bg-primary) !important;
+}
+.agents .text-warning{
+    color: var(--color-primary) !important;
+}
+@media only screen and (min-width: 1200px) {
+      .agents header{
+        margin-bottom: -72px !important; 
+        background: transparent !important;
+      }
+      .agents header .navbar-nav  .nav-link{
+        color: white !important;
+      }
+    }
+
+
+
+
+/*-----------------------------------------------------------END AGENTS*/
+
+@media only screen and (max-width: 992px) {
+    .dropdown-menu.show {
+        flex-wrap: wrap;
+        max-height: 350px;
+        overflow-y: scroll;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1140px) {
+    .dropdown:hover .dropdown-menu {
+        width: 40vw;
+        flex-wrap: wrap;
+    }
+}
