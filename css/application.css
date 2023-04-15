@@ -257,6 +257,9 @@ a{
 /*-----------------------------------------------------------END INVEST*/
 
 /*-------------------------------------------------------------AGENTS*/
+.agents .bg-first {
+    background-color: var(--sell-bg-primary);
+}
 .agents .bg-home {
     background-color: white !important;
 }
@@ -282,19 +285,33 @@ a{
     align-items: center;
     display: flex;
 }
-.agents .section-5{
-    margin-top: 3.5rem;
-    background-color: #14a6e4;
-}
-.agents .section-5 h5{
-    color: white;
-}
+
 
 .agents .text-primary{
     color: var(--agents-bg-primary) !important;
 }
 .agents .text-warning{
     color: var(--color-primary) !important;
+}
+.agents .text-def{
+    color: var(--sell-bg-primary)!important;
+}
+
+.agents .step .active .step-title, .step .active.is-valid .step-title {
+    color: var(--sell-bg-primary) I !important;
+}
+.agents .step-icon-soft-secondary {
+    color: #51596c;
+    background-color: #C3EBED !important;
+}
+
+.agents .step .active .step-icon, .step .active.is-valid .step-icon {
+    color: #fff;
+    background-color: var(--sell-bg-primary)  !important;
+}
+
+.agents .step .active .step-title, .step .active.is-valid .step-title {
+    color: var(--sell-bg-primary) I !important;
 }
 @media only screen and (min-width: 1200px) {
       .agents header{
